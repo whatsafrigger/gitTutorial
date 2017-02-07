@@ -19,6 +19,7 @@ public class Student extends Person {
         if(this.courseList==null)
             this.courseList = new ArrayList<>(5);
         this.courseList.add(c);
+
     }
 
     public String toString() {
